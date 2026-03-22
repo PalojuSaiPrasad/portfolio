@@ -1,6 +1,5 @@
 import React from 'react';
 import { Mail, Github, Linkedin, Briefcase, FolderPlus, User, Code2 } from 'lucide-react';
-import { SiLeetcode } from 'react-icons/si';
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -31,7 +30,6 @@ const Sidebar = () => {
         <a href="https://www.linkedin.com/in/palojusaiprasad" target="_blank" rel="noreferrer"><Linkedin size={20} /></a>
         <a href="https://github.com/PalojuSaiPrasad" target="_blank" rel="noreferrer"><Github size={20} /></a>
         <a href="mailto:saiprasadpaloju@gmail.com"><Mail size={20} /></a>
-        {/* <a href="https://leetcode.com/u/Sai_2129/" target="_blank" rel="noreferrer"><SiLeetcode size={20} /></a> */}
       </div>
     </aside>
   );
