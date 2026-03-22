@@ -11,7 +11,7 @@ const Sidebar = () => {
         <div className="profile-img-container">
           {/* Placeholder for user image */}
           <div className="profile-img-placeholder">
-             SP
+            SP
           </div>
         </div>
         <a href="#contact" className="talk-btn">
@@ -31,7 +31,7 @@ const Sidebar = () => {
         <a href="https://www.linkedin.com/in/palojusaiprasad" target="_blank" rel="noreferrer"><Linkedin size={20} /></a>
         <a href="https://github.com/PalojuSaiPrasad" target="_blank" rel="noreferrer"><Github size={20} /></a>
         <a href="mailto:saiprasadpaloju@gmail.com"><Mail size={20} /></a>
-        <a href="https://leetcode.com/u/Sai_2129/" target="_blank" rel="noreferrer"><SiLeetcode size={20} /></a>
+        {/* <a href="https://leetcode.com/u/Sai_2129/" target="_blank" rel="noreferrer"><SiLeetcode size={20} /></a> */}
       </div>
     </aside>
   );
