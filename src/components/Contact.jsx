@@ -17,10 +17,10 @@ const Contact = () => {
           <div className="contact-info glass">
             <h3>Let's Connect</h3>
             <p className="contact-desc">
-              Whether you have a question, a project opportunity, or just want to say hi, 
+              Whether you have a question, a project opportunity, or just want to say hi,
               feel free to reach out. I'll try my best to get back to you!
             </p>
-            
+
             <div className="info-item">
               <div className="info-icon"><Mail size={24} /></div>
               <div>
@@ -28,7 +28,7 @@ const Contact = () => {
                 <p>saiprasadpaloju@gmail.com</p>
               </div>
             </div>
-            
+
             <div className="info-item">
               <div className="info-icon"><MapPin size={24} /></div>
               <div>
@@ -38,8 +38,8 @@ const Contact = () => {
             </div>
           </div>
 
-          <form 
-            className="contact-form glass" 
+          <form
+            className="contact-form glass"
             action={formActionUrl}
             method="POST"
             target="_blank"
@@ -51,37 +51,37 @@ const Contact = () => {
 
             <div className="form-group">
               <label htmlFor="name">Your Name</label>
-              <input 
-                type="text" 
-                id="name" 
-                name="name" 
-                required 
-                placeholder="John Doe"
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Sai Prasad"
               />
             </div>
-            
+
             <div className="form-group">
               <label htmlFor="email">Your Email</label>
-              <input 
-                type="email" 
-                id="email" 
-                name="email" 
-                required 
-                placeholder="john@example.com"
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="sp@example.com"
               />
             </div>
-            
+
             <div className="form-group">
               <label htmlFor="message">Your Message</label>
-              <textarea 
-                id="message" 
-                name="message" 
-                rows="5" 
-                required 
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
                 placeholder="Hello Sai Prasad..."
               ></textarea>
             </div>
-            
+
             <button type="submit" className="btn btn-primary submit-btn">
               Send Message <Send size={18} />
             </button>
